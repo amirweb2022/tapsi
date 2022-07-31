@@ -1,0 +1,72 @@
+$color-orange:#ff5722;
+$color-blue:#2266f4;
+$color-overlay-dark:rgba(23,26,60,.7);
+$color-overlay-opacity-dark:rgba(23,26,60,.3);
+$color-title:#141414;
+$color-text:#333;
+$color-text-opacity:#9b9b9b;
+$color-white:#fff;
+$color-black:#000;
+$color-border:#ddd;
+$color-link:#545454;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'iran';
+    src: url(/assest/font/iransan.ttf);
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin  flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin flexColumnStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+@mixin flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin flexWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'iran';
+}

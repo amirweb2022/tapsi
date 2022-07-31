@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'iran';
+  src: url(/assest/font/iransan.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'iran';
+}
+
+.section-Services {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.section-Services .container-services {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section-Services .container-services .title-aervises {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.section-Services .container-services .servises {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-Services .container-services .servises .container-servises {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.section-Services .container-services .servises .container-servises .car-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.section-Services .container-services .servises .container-servises .car-item img {
+  width: 65%;
+}
+
+.section-Services .container-services .servises .container-servises .car-item p {
+  color: #545454;
+  margin-top: 10px;
+}
+
+.section-Services .container-services .servises .container-servises .car-select img {
+  opacity: 0.35;
+}
+
+.section-Services .container-services .servises .text-content-servises {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.section-Services .container-services .servises .text-content-servises .text-servises {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.section-Services .container-services .servises .text-content-servises .text-servises h2 {
+  font-weight: normal;
+}
+
+.section-Services .container-services .servises .text-content-servises .text-servises p {
+  color: #333;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.section-Services .container-services .servises .text-content-servises .content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section-Services .container-services .servises .text-content-servises .content-image img {
+  width: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'iran';
+  src: url(/assest/font/iransan.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'iran';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'iran';
+  src: url(/assest/font/iransan.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'iran';
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  z-index: 999;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.header .logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 60%;
+}
+
+.header .icon-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.header .icon-menu .container-menu {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header .icon-menu .container-menu .bar1, .header .icon-menu .container-menu .bar2, .header .icon-menu .container-menu .bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.header .icon-menu .change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.header .icon-menu .change .bar2 {
+  opacity: 0;
+}
+
+.header .icon-menu .change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.header .nav-list-menu {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.header .nav-list-menu .list-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav-list-menu .list-menu-item .list-item {
+  margin-left: 30px;
+}
+
+.header .nav-list-menu .list-menu-item .list-item a {
+  font-size: 15px;
+  color: #545454;
+}
+
+.header .nav-list-menu .list-menu-item .list-item a:hover {
+  color: #ff5722;
+}
+
+.header .btn-download {
+  border: none;
+  border-radius: 8px;
+  background-color: #ff5722;
+  text-align: center;
+  padding: 15px 45px;
+  font-family: 'iran';
+  cursor: pointer;
+  display: none;
+}
+
+.header .btn-download a {
+  color: #fff;
+  font-size: 15pxpx;
+}
+
+.header .btn-download:hover {
+  transform: scale(0.97);
+}
+
+@media screen and (min-width: 640px) {
+  .header .icon-menu {
+    display: none;
+  }
+  .header .logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .logo img {
+    width: 60%;
+  }
+  .header .nav-list-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header .logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .logo img {
+    width: 40%;
+  }
+  .header .btn-download {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .logo img {
+    width: 20%;
+  }
+}
+
+.menu-mobile {
+  width: 100%;
+  height: auto;
+  padding: 0px 18px;
+  background-color: #fff;
+  box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 60px;
+  z-index: 998;
+  display: none;
+}
+
+.menu-mobile .list-mobile-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.menu-mobile .list-mobile-menu .item-mobile-menu {
+  margin: 15px 0;
+}
+
+.menu-mobile .list-mobile-menu .item-mobile-menu .link-item-mobile-menu {
+  color: #545454;
+  font-size: 14px;
+}
+
+.menu-mobile .list-mobile-menu .item-mobile-menu .link-item-mobile-menu:hover {
+  color: #ff5722;
+}
+
+.active-menu {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'iran';
+  src: url(/assest/font/iransan.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'iran';
+}
+
+.content-wrapper {
+  width: 100%;
+  height: 400px;
+  background: url(/assest/image/banner.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.content-wrapper .content-overlay {
+  margin-right: 40px;
+  width: 528px;
+  height: fit-content;
+  background-image: linear-gradient(51deg, rgba(23, 26, 60, 0.7) 5%, rgba(23, 26, 60, 0.3) 95%);
+  border-radius: 20px;
+  padding: 15px 18px;
+}
+
+.content-wrapper .content-overlay .title-content {
+  width: 100%;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.content-wrapper .content-overlay .tetx-content {
+  width: 100%;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.content-wrapper .content-overlay .tetx-content h2 {
+  font-weight: normal;
+}
+
+.content-wrapper .content-overlay .section-servis-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper .content-overlay .section-servis-content .servis-content {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-wrapper .content-overlay .section-servis-content .servis-content .content-white {
+  min-width: 200px;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.content-wrapper .content-overlay .section-servis-content .servis-content .content-white a {
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+
+.content-wrapper .content-overlay .section-servis-content .servis-content .content-dark {
+  min-width: 200px;
+  height: 100%;
+  background-color: rgba(23, 26, 60, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+}
+
+.content-wrapper .content-overlay .section-servis-content .servis-content .content-dark a {
+  color: #fff;
+}
+
+.content-wrapper .phone-content {
+  width: 25%;
+  position: relative;
+  right: 400px;
+  top: 130px;
+}
+
+.content-wrapper .phone-content img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'iran';
+  src: url(/assest/font/iransan.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'iran';
+}
+
+.notification-banner {
+  width: 100%;
+  height: 100%;
+  background-image: url(/assest/image/web-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 8px 8px;
+}
+
+.notification-banner p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.notification-banner a {
+  background-color: #2266f4;
+  color: #fff;
+  border-radius: 8px;
+  padding: 5px 4px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 640px) {
+  .notification-banner .btn-notification {
+    padding: 5px 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .notification-banner .text-notification {
+    font-size: 17px;
+  }
+  .notification-banner .btn-notification {
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .notification-banner .btn-notification {
+    padding: 10px 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

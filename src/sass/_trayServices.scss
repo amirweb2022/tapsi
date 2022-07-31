@@ -1,0 +1,73 @@
+@import "stracture";
+.section-Services {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    .container-services {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        .title-aervises {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .servises {
+            width: 100%;
+            height: 100%;
+            margin-top: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            .container-servises {
+                width: 100%;
+                height: 100%;
+                @include flexCenter;
+                margin: 0 auto;
+                .car-item {
+                    width: 100%;
+                    height: 100%;
+                    @include flexColumn;
+                    cursor: pointer;
+                    img {
+                        width: 65%;
+                    }
+                    p {
+                        color: $color-link;
+                        margin-top: 10px;
+                    }
+                }
+                .car-select {
+                    img {
+                       opacity: 0.35;
+                    }
+                }
+            }
+            .text-content-servises {
+                width: 100%;
+                height: 100%;
+                @include flexBetween;
+                margin-top: 20px;
+                .text-servises {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 50px;
+                    h2 {
+                        font-weight: normal;
+                    }
+                    p {
+                        color: #333;
+                        margin-top: 20px;
+                        font-size: 18px;
+                    }
+                }
+                .content-image {
+                    @include flexCenter;
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
