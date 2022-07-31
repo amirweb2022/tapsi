@@ -39,6 +39,11 @@
                     img {
                        opacity: 0.35;
                     }
+                    &:hover {
+                        img {
+                            opacity: 1;
+                        }
+                    }
                 }
             }
             .text-content-servises {
